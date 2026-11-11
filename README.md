@@ -146,7 +146,7 @@ go build -o gd-wolf .
 go test ./...
 ```
 
-Use Go 1.27.3 or newer. Go resolves the pinned dependencies from `go.mod`. The palette test uses the embedded fixture included in this repo.
+Use Go 1.27.4 or newer. Go resolves the pinned dependencies from `go.mod`. The palette test uses the embedded fixture included in this repo.
 
 On headless Linux, run the tests under a virtual display with `xvfb-run -a go test ./...` so Ebiten can initialize.
 
